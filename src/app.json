@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/map/main",
+
+    "pages/user/main",
+    "pages/question/main",
+    "pages/msgCenter/main",
+    "pages/circle/main",
+    "pages/myLike/main",
+    "pages/myClass/main",
+    "pages/follow/main",
+    "pages/like/main",
+    "pages/articleDetail/main",
+    "pages/userSetting/main",
+    "pages/phoneModify/main",
+    "pages/userCenter/main",
+    "pages/discovery/main",
+    "pages/postUser/main",
+
+    "pages/teacher/main",
+    "pages/videoPlay/main",
+    "pages/circleDetail/main",
+    "pages/muscle/main",
+    "pages/tasteClass/main"
+  ],
+  "networkTimeout": {
+    "request": 8000,
+    "downloadFile": 8000
+  },
+  "tabBar": {
+    "color": "#868686",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#868686",
+    "list": [{
+      "pagePath": "pages/index/main",
+      "text": "推荐",
+      "iconPath": "/static/images/bars/1.jpg",
+      "selectedIconPath": "/static/images/bars/1_1.jpg"
+    }, {
+      "pagePath": "pages/discovery/main",
+      "text": "原创",
+      "iconPath": "/static/images/bars/2.jpg",
+      "selectedIconPath": "/static/images/bars/2_1.jpg"
+    }, {
+      "pagePath": "pages/circle/main",
+      "text": "圈子",
+      "iconPath": "/static/images/bars/3.jpg",
+      "selectedIconPath": "/static/images/bars/3_1.jpg"
+    }, {
+      "pagePath": "pages/user/main",
+      "text": "用户",
+      "iconPath": "/static/images/bars/4.jpg",
+      "selectedIconPath": "/static/images/bars/4_1.jpg"
+    }]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "debug": true
+}

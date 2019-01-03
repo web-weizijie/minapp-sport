@@ -1,0 +1,99 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "dist/",
+	"compileType": "miniprogram",
+	"libVersion": "2.2.5",
+	"appid": "wxbb746e6ac09f4571",
+	"projectname": "sport",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": 1,
+					"name": "断网测试",
+					"pathName": "pages/muscle/main",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "视频播放",
+					"pathName": "pages/videoPlay/main",
+					"query": "id=1807259HDXCBWF14"
+				},
+				{
+					"id": 3,
+					"name": "圈子分享",
+					"pathName": "pages/circleDetail/main",
+					"query": "id=1809259S1G0T1RYW&isShare=1&saleId=1809307S2T9BS3C0"
+				},
+				{
+					"id": -1,
+					"name": "体验课",
+					"pathName": "pages/tasteClass/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/userCenter/main",
+					"query": "userId=1809068FDA6RTXP0"
+				},
+				{
+					"id": -1,
+					"name": "地图",
+					"pathName": "pages/map/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "模拟扫码进入",
+					"pathName": "pages/index/main",
+					"query": ""
+				},
+				{
+					"id": 8,
+					"name": "文章页分享",
+					"pathName": "pages/articleDetail/main",
+					"query": "id=180809CA2M16X9WH&saleId=1809307RZX773S3C&isShare=1"
+				},
+				{
+					"id": 8,
+					"name": "视频分享",
+					"pathName": "pages/videoPlay/main",
+					"query": "id=1807259HDXCBWF14&isShare=1&saleId=1809307RZX773S3C"
+				}
+			]
+		}
+	}
+}
